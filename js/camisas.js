@@ -28,7 +28,7 @@ let camisasJson = [
     {
         id: 3,
         name: 'Roteador 3',
-        img: 'images/roteador3.jpg',
+        img: 'images/roteador3.png',
         price: [89.00, 89.00, 139.00, 159.00],
         sizes: [
             'Infantil',
