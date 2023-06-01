@@ -14,7 +14,7 @@ let camisasJson = [
     },
     {
         id: 2,
-        name: 'Roteador 2',
+        name: 'Roteador Sem Fio H80',
         img: 'images/roteador2.png',
         price: [99.00, 139.00, 189.00, 219.00],
         sizes: [
@@ -27,7 +27,7 @@ let camisasJson = [
     },
     {
         id: 3,
-        name: 'Roteador 3',
+        name: 'Roteador Wireless LTE',
         img: 'images/roteador3.png',
         price: [89.00, 89.00, 139.00, 159.00],
         sizes: [
