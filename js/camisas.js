@@ -1,8 +1,8 @@
 let camisasJson = [
     {
         id: 1,
-        name: 'Camisa de Jogo Temporada 92/94',
-        img: 'images/camisa1 92-94.jpg',
+        name: 'Roteador Portátil com bateria',
+        img: 'images/roteador1.jpg',
         price: [249.99, 279.00, 299.00, 319.00],
         sizes: [
             'Infantil',
@@ -10,12 +10,12 @@ let camisasJson = [
             'Adulto',
             'Adulto'
         ],
-        description: 'Camisa de jogo oficial do vasco da temporada 92/94, com patrocínio da Coca Cola feita pela Finta.'
+        description: 'Este mini roteador é fácil de conectar e fácil de transportar com você, com até 10 usuários compartilhando uma distância de 50 metros, o que é um ótimo parceiro de viagem.'
     },
     {
         id: 2,
-        name: 'Camisa de Jogo Oficial Expresso da Vitória',
-        img: 'images/camisa2 expresso.jpg',
+        name: 'Roteador 2',
+        img: 'images/roteador2.png',
         price: [99.00, 139.00, 189.00, 219.00],
         sizes: [
             'Infantil',
@@ -23,12 +23,12 @@ let camisasJson = [
             'Adulto',
             'Adulto'
         ],
-        description: 'Camisa de jogo oficial do modelo usado pelo Expresso da Vitória, sem marca e patrocínio.'
+        description: ' Este roteador é feito de material durável e tem uma velocidade de internet muito rápida, que é adequado para uso em rede doméstica.'
     },
     {
         id: 3,
-        name: 'Camisa Comemorativa Temporada 88',
-        img: 'images/camisa3 comemorativa 88.jpg',
+        name: 'Roteador 3',
+        img: 'images/roteador3.jpg',
         price: [89.00, 89.00, 139.00, 159.00],
         sizes: [
             'Infantil',
@@ -36,47 +36,8 @@ let camisasJson = [
             'Adulto',
             'Adulto'
         ],
-        description: 'Camisa comemorativa feita em homenagem ao time de 88, com patrocínio da Coca Cola e feita pela Adidas.'
+        description: 'Acesso à internet de alta velocidade para escritório e casa. Também pode ser utilizado com laptops, notebooks, para UMPCs e dispositivos MID.'
     },
-    {
-        id: 4,
-        name: 'Camisa Comemorativa Carlos Germano',
-        img: 'images/camisa4 carlos germano.jpg',
-        price: [49.00, 59.00, 79.00, 99.00],
-        sizes: [
-            'Infantil',
-            'Adulto',
-            'Adulto',
-            'Adulto'
-        ],
-        description: 'Camisa comemorativa feita em homenagem ao goleiro Carlos Germano, ídolo do Vasco.'
-    },
-    {
-        id: 5,
-        name: 'Camisa de Jogo Temporada 88',
-        img: 'images/camisa5 1988.jpg',
-        price: [119.00, 149.00, 189.00, 219.00],
-        sizes: [
-            'Infantil',
-            'Adulto',
-            'Adulto',
-            'Adulto'
-        ],
-        description: 'Camisa não-oficial de jogo da temporada 88, sem patrocínio.'
-    },
-    {
-        id: 6,
-        name: 'Camisa de Jogo Temporada 88 com Patrocínios',
-        img: 'images/camisa6 1988.jpg',
-        price: [259.00, 279.00, 319.00, 349.00],
-        sizes: [
-            'Infantil',
-            'Adulto',
-            'Adulto',
-            'Adulto'
-        ],
-        description: 'Camisa oficial de jogo da temporada 88, com patrocínio da Coca Cola e feita pela Adidas.'
-    }
 ];
 
 let modalKey = 0
