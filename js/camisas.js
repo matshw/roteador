@@ -131,15 +131,7 @@ const adicionarNoCarrinho = () => {
     seleciona('.camisaInfo-botaoAdicionar').addEventListener('click', () => {
 
         let size = seleciona('.camisaInfo-tamanho.selected').getAttribute('data-key')
-        if (size == 0) {
-            size = "Portátil"
-        } else if (size == 1) {
-            size = "Portátil"
-        } else if (size == 2) {
-            size = "Portátil"
-        } else if (size == 3) {
-            size = "Portátil"
-        }
+
 
         let price = seleciona('.camisaInfo-precoAtual').innerHTML.replace('R$&nbsp;', '')
 
