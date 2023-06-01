@@ -20,7 +20,7 @@ body {
 
 #cabecalho {
     background-color: #449ca8;
-    height: 60px;
+    height: 70px;
     width: 100%;
     position: absolute;
     text-align:right;
@@ -30,7 +30,7 @@ body {
 .abrir-menu {
     width: 71px;
     height: auto;
-    margin-top: -50px;
+    margin-top: -60px;
     margin-left: 95%;
     font-size: 26px;
     background-color: #9ad1ef;
@@ -40,8 +40,9 @@ body {
 }
 
 #imginicial{
-    right: 755px;
-    width: 175px;
+    top: -5px;
+    right: 800px;
+    width: 85px;
     height: auto;
     position: relative;
     object-position: center;
