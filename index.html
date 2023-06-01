@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RetroVasco</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Lato'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/png" href="images/escudo.png" />
+<link rel="stylesheet" href="css/style.css">
+<script src="js/main.js" defer></script>
+
+<body>
+    <div id="cabecalho">
+        <a href="paginainicial.html"><img src="images/terceiraimg.png" class="logo"></a>
+        <a href="paginainicial.html" id="inicio">Início</a>
+        <a href="index.html" id="sobre">Sobre</a>
+    </div>
+    <div id="geral">
+        <div id="form">
+            <div id="form1">
+                <form action="form.php" method="post">
+                    <label for="tituloform" id="tituloform">Receba novidades de camisas no seu email</label>
+                    <br><br>
+                    <label for="nome">Nome:</label>
+                    <br>
+                    <input type="text" name="nome" class="textbar">
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input type="email" name="email" class="textbar">
+                    <br><br>
+                    <label>Você possui uma coleção de camisas do vasco?</label>
+                    <br>
+                    <div>
+                        <input type="checkbox" id="op1" name="checkbox">
+                        <label for="checkbox">Sim</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="op2" name="checkbox">
+                        <label for="checkbox">Não</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="op3" name="checkbox">
+                        <label for="checkbox">Possuo algumas</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="op4" name="checkbox">
+                        <label for="checkbox">Estou começando</label>
+                    </div>
+                    <br>
+                    <label for="quantidade">Quantas camisas você possui?</label><br>
+                    <select name="select">
+                        <option value="valor0" selected>Nenhuma</option>
+                        <option value="valor1">1</option>
+                        <option value="valor2">2</option>
+                        <option value="valor3">3</option>
+                        <option value="valor4">4</option>
+                        <option value="valor5">5 ou mais</option>
+                    </select>
+                    <br><br>
+                    <label for="time">Qual seu time do coração?</label><br>
+                    <input type="text" name="time" class="textbar">
+                    <br><br>
+                    <button class="botaoform" href="#">Receber Novidades</button>
+                </form>
+            </div>
+        </div>
+        <div id="apresentacao">
+            <label for="tituloprincipal" id="tituloprincipal">Venda e exposição de camisas retrôs do Vasco</label>
+            <iframe class="youtube" width="500" height="300" src="https://www.youtube.com/embed/RTM6Z2M2LXw"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <div id="descricao">
+                <p for="titulodescricao" id="titulodescricao">Sobre a RetroVasco</p><br><br>
+                <ul>
+                    <li class="titlelista">O site com a maior variedade de camisas retrô do Vasco!</li>
+                    <p class="desclista">Compre camisas antigas do Vasco sem sair de casa.</p><br>
+                    <li class="titlelista">Venda sua coleção de camisas com segurança, tranquilidade e privacidade</li>
+                    <p class="desclista">Anuncie suas camisas no nosso site e tenha 100% de privacidade enquanto
+                        vende.</p><br>
+                    <li class="titlelista">Receba uma camisa retrô podendo ser AUTOGRAFADA todo mês!</li>
+                    <p class="desclista">Você pode assinar pacote que te permitem receber camisas retrôs e
+                        autografadas todos os meses em sua casa!</p><br>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="divh1">
+            <h1>Nossos Preços</h1>
+        </div>
+        <div class="precos">
+            <div class="preco">
+                <div class="titulopreco">
+                    <h2>Grátis</h2>
+                    <p><i class="fa fa-usd"></i><Span>0</Span>/mês</p>
+                </div>
+                <div class="descpreco">
+                    <ul>
+                        <li><i class="fa fa-check-circle"></i>Anunciar no site</li>
+                        <li><i class="fa fa-check-circle"></i>Receber novidades de camisas</li>
+                        <li><i class="fa fa-times"></i>Participar de leilões de camisas raras</li>
+                        <li><i class="fa fa-times"></i>Receber uma camisa retrô por mês</li>
+                        <li><i class="fa fa-times"></i>Receber uma camisa retrô AUTOGRAFADA por mês</li>
+                        <li><i class="fa fa-times"></i>Ter preferência na compra de camisas em leilões</li>
+                    </ul>
+                    <button><a href="#">Assine agora</a></button>
+                </div>
+            </div>
+            <div class="preco">
+                <div class="titulopreco">
+                    <h2>Básico</h2>
+                    <p><i class="fa fa-usd"></i><Span>99</Span>/mês</p>
+                </div>
+                <div class="descpreco">
+                    <ul>
+                        <li><i class="fa fa-check-circle"></i>Anunciar no site</li>
+                        <li><i class="fa fa-check-circle"></i>Receber novidades de camisas</li>
+                        <li><i class="fa fa-check-circle"></i>Participar de leilões de camisas raras</li>
+                        <li><i class="fa fa-check-circle"></i>Receber uma camisa retrô por mês</li>
+                        <li><i class="fa fa-times"></i>Receber uma camisa retrô AUTOGRAFADA todo mês</li>
+                        <li><i class="fa fa-times"></i>Ter preferência na compra de camisas em leilões</li>
+                    </ul>
+                    <button><a href="#">Assine agora</a></button>
+                </div>
+            </div>
+            <div class="preco">
+                <div class="titulopreco">
+                    <h2>Premium</h2>
+                    <p><i class="fa fa-usd"></i><Span>299</Span>/mês</p>
+                </div>
+                <div class="descpreco">
+                    <ul>
+                        <li><i class="fa fa-check-circle"></i>Anunciar no site</li>
+                        <li><i class="fa fa-check-circle"></i>Receber novidades de camisas</li>
+                        <li><i class="fa fa-check-circle"></i>Participar de leilões de camisas raras</li>
+                        <li><i class="fa fa-check-circle"></i>Receber uma camisa retrô por mês</li>
+                        <li><i class="fa fa-check-circle"></i>Receber uma camisa retrô AUTOGRAFADA por mês</li>
+                        <li><i class="fa fa-check-circle"></i>Ter preferência na compra de camisas em leilões</li>
+                    </ul>
+                    <button><a href="#">Assine agora</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="faq">
+        <div class="divh1">
+            <h1>Perguntas Frequentes</h1>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-titulo">
+                O que é a RetroVasco?
+            </div>
+            <div class="accordion-descricao">
+                <div class="accordion-conteudo">
+                    A RetroVasco é um site de compra e venda de camisas retrôs do Vasco que garante total segurança e
+                    privacidade
+                    ao comprar e vender camisas. A RetroVasco também promove leilões de camisas históricas, assim como
+                    planos
+                    de assinatura que permitem receber camisas retrôs e autografadas todo mês.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-titulo">
+                Como funciona os planos de assinatura?
+            </div>
+            <div class="accordion-descricao">
+                <div class="accordion-conteudo">
+                    Você pode ter o plano Grátis(Grátis) que tem direito apenas a anunciar no site e receber novidades
+                    de novas
+                    camisas. Você pode também assinar o plano Básico($99/mês) que te permite todas essas funcionalidades
+                    e também
+                    permite receber uma camisa retrô por mês, assim como permite participar de leilões das camisas
+                    raras. Por
+                    fim, você pode assinar o plano Premium($299/mês) que te permite todas as funcionalidades do plano
+                    Básico e
+                    também permite receber uma camisa retrô autografada por mês, assim como ter preferência na compra de
+                    camisas
+                    em leilões.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-titulo">
+                Como funciona os leilões?
+            </div>
+            <div class="accordion-descricao">
+                <div class="accordion-conteudo">
+                    Nós anunciamos uma camisa que seja muito rara para nossos assinadores Básico e Premium, e eles podem
+                    dar lances para comprar a camisa. O assinador que der o maior lance, leva a camisa. O assinador
+                    Premium
+                    tem preferência na compra da camisa, ou seja, se ele der o maior lance, ele leva a camisa, mesmo que
+                    o
+                    assinador Básico tenha dado um lance igual.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-titulo">
+                O que é uma camisa retrô?
+            </div>
+            <div class="accordion-descricao">
+                <div class="accordion-conteudo">
+                    Camisas retrô são camisas que já foram usadas por jogadores do Vasco em anos passados, podendo ser
+                    autografadas, ou camisas de edições passadas no modelo torcedor.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-titulo">
+                Como funciona a garantia de privacidade do site?
+            </div>
+            <div class="accordion-descricao">
+                <div class="accordion-conteudo">
+                    Caso você queira comprar ou vender alguma camisa de modo totalmente anônimo, você deve entrar em
+                    contato com o nosso suporte, que vai te auxiliar a como fazer isso. Nós garantimos que ninguém vai
+                    saber que você comprou ou vendeu alguma camisa, a não ser que você queira
+                    (e lembre-se, jamais iremos pedir seus dados de login).
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="divh1">
+        <h1>O que estão falando da RetroVasco?</h1>
+    </div>
+    <div class="avaliacoes">
+        <div class="avaliacao">
+            <i class="fas fa-quote-left quote"></i>
+            <p>O site é muito intuitivo e fácil de usar, me ajudou muito a aumentar minha coleção do Vasco. Mal
+                posso esperar para comprar o serviço de assinatura e receber uma camisa retrô todo mês!
+            </p>
+            <div class="discurso">
+                <div class="info">
+                    <div class="nome">Nenê</div>
+                    <div class="profissao">Torcedor do Vasco</div>
+                    <div class="estrelas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="images/nene.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="avaliacao">
+            <i class="fas fa-quote-left quote"></i>
+            <p>Já comprei camisas retrôs em vários sites diferentes, porém esse foi o que me ofereceu o melhor serviço
+                e garantiu a segurança dos meus dados, além de me entregar uma camisa retrô autografada todo mês.
+                Recomendo!
+            </p>
+            <div class="discurso">
+                <div class="info">
+                    <div class="nome">Edmundo</div>
+                    <div class="profissao">Colecionador Profissional</div>
+                    <div class="estrelas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="images/edmundo.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="avaliacao">
+            <i class="fas fa-quote-left  quote"></i>
+            <p>Comecei colecionar camisas a pouco tempo e tenho certeza que esse é o melhor site de camisas que já vi.
+                Os leilões realmente são muito bons e com ótimos produtos. Recomendo para todos os colecionadores!
+            </p>
+            <div class="discurso">
+                <div class="info">
+                    <div class="nome">Romário</div>
+                    <div class="profissao">Colecionador iniciante</div>
+                    <div class="estrelas">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="images/romario.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="divh1">
+        <h1>Equipe de Desenvolvimento</h1>
+    </div>
+    <section>
+        <div class="equipe">
+            <div class="coluna">
+                <div class="bloco">
+                    <div class="imagem-equipe">
+                        <img src="images/dinamite.jpeg" />
+                    </div>
+                    <h3>Dinamite</h3>
+                    <p>Desenvolvedor</p>
+                    <div class="icons">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="coluna">
+                <div class="bloco">
+                    <div class="imagem-equipe">
+                        <img src="images/juninho.jpg" />
+                    </div>
+                    <h3>Juninho</h3>
+                    <p>Designer</p>
+                    <div class="icons">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="coluna">
+                <div class="bloco">
+                    <div class="imagem-equipe">
+                        <img src="images/gabrielpec.jpg" />
+                    </div>
+                    <h3>Gabriel Pec</h3>
+                    <p>Designer</p>
+                    <div class="icons">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/matshw" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="rodape">
+            <div class="linha-rodape">
+                <div class="coluna-rodape">
+                    <h4>SobreVasco</h4>
+                    <ul>
+                        <li><a href="#"> Quem somos </a></li>
+                        <li><a href=""> Nossos serviços </a></li>
+                        <li><a href=""> Política de privacidade </a></li>
+                        <li><a href=""> Serviço de Assinatura</a></li>
+                    </ul>
+                </div>
+                <div class="coluna-rodape">
+                    <h4>Obter ajuda</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Transporte</a></li>
+                        <li><a href="#">Devoluções</a></li>
+                        <li><a href="#">Status De Pedido</a></li>
+                        <li><a href="#">Opções De Pagamento</a></li>
+                    </ul>
+                </div>
+                <div class="coluna-rodape">
+                    <h4>Nossa loja</h4>
+                    <ul>
+                        <li><a href="#">Camisas</a></li>
+                        <li><a href="#">Galeria</a></li>
+                        <li><a href="#">Leilões</a></li>
+                        <li><a href="#">Assinaturas</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
