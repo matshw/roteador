@@ -5,10 +5,10 @@ let camisasJson = [
         img: 'images/roteador1.jpg',
         price: [249.99, 279.00, 299.00, 319.00],
         sizes: [
-            'Infantil',
-            'Adulto',
-            'Adulto',
-            'Adulto'
+            '1',
+            '2',
+            '3',
+            '4'
         ],
         description: 'Este mini roteador é fácil de conectar e fácil de transportar com você, com até 10 usuários compartilhando uma distância de 50 metros, o que é um ótimo parceiro de viagem.'
     },
@@ -18,10 +18,10 @@ let camisasJson = [
         img: 'images/roteador2.png',
         price: [99.00, 139.00, 189.00, 219.00],
         sizes: [
-            'Infantil',
-            'Adulto',
-            'Adulto',
-            'Adulto'
+            '1',
+            '2',
+            '3',
+            '4'
         ],
         description: ' Este roteador é feito de material durável e tem uma velocidade de internet muito rápida, que é adequado para uso em rede doméstica.'
     },
@@ -31,10 +31,10 @@ let camisasJson = [
         img: 'images/roteador3.png',
         price: [89.00, 89.00, 139.00, 159.00],
         sizes: [
-            'Infantil',
-            'Adulto',
-            'Adulto',
-            'Adulto'
+            '1',
+            '2',
+            '3',
+            '4'
         ],
         description: 'Acesso à internet de alta velocidade para escritório e casa. Também pode ser utilizado com laptops, notebooks, para UMPCs e dispositivos MID.'
     },
@@ -132,13 +132,13 @@ const adicionarNoCarrinho = () => {
 
         let size = seleciona('.camisaInfo-tamanho.selected').getAttribute('data-key')
         if (size == 0) {
-            size = "P"
+            size = "Portátil"
         } else if (size == 1) {
-            size = "M"
+            size = "Portátil"
         } else if (size == 2) {
-            size = "G"
+            size = "Portátil"
         } else if (size == 3) {
-            size = "GG"
+            size = "Portátil"
         }
 
         let price = seleciona('.camisaInfo-precoAtual').innerHTML.replace('R$&nbsp;', '')
